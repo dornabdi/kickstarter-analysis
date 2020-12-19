@@ -15,7 +15,7 @@ First, I created a pivot table comparing launch dates in terms of months and out
 I set the pivot table filters to include Parent Category and Years. This way, I could find trends specific to theater and compare campaign trends from year to year. My table had outcomes in the columns and launch month in the rows. I grouped the data in terms of months on the table to do so. Furthermore, I left out campaigns that are currently live to focus on completed outcomes. Since Louise' project is a play, it was important to focus on Kickstar campaigns for theater. See the complete pivot table below: 
 <br/>![LDPivot](LDPivot.png)<br/>
 
-I then created a line chart based on the pivot table to visualize the trends in outcomes based on  launch date. See the line chart below: ---![Theater_Outcomes_vs_Launch(Theater_Outcomes_vs_Launch.png) <br/>
+I then created a line chart based on the pivot table to visualize the trends in outcomes based on  launch date. See the line chart below: ![Theater_Outcomes_vs_Launch(Theater_Outcomes_vs_Launch.png) <br/>
 
 ### Analysis of Outcomes Based on Goals
 When looking at outcomes based on campaign goals, I created a table that grouped campaign goals in buckets of $5000 and compared them to campaign outcomes of Successful, Failed, and Canceled. Once again, I did not include Live projects because the focus is on completed outcomes only. 
