@@ -13,22 +13,22 @@ The goal with this project was to give Louise data analysis and strategy to supp
 First, I created a pivot table comparing launch dates in terms of months and outcomes (successful, failed, canceled). To create the pivot table, I first used the YEAR function to add a column of years when the campaign was lauched. 
 
 I set the pivot table filters to include Parent Category and Years. This way, I could find trends specific to theater and compare campaign trends from year to year. My table had outcomes in the columns and launch month in the rows. I grouped the data in terms of months on the table to do so. Furthermore, I left out campaigns that are currently live to focus on completed outcomes. Since Louise' project is a play, it was important to focus on Kickstar campaigns for theater. See the complete pivot table below: 
----![LDPivot] (LDPivot.png)---
+<br/>![LDPivot](LDPivot.png)<br/>
 
-I then created a line chart based on the pivot table to visualize the trends in outcomes based on  launch date. See the line chart below: ---![Theater_Outcomes_vs_Launch] (Theater_Outcomes_vs_Launch.png)
+I then created a line chart based on the pivot table to visualize the trends in outcomes based on  launch date. See the line chart below: ---![Theater_Outcomes_vs_Launch(Theater_Outcomes_vs_Launch.png) <br/>
 
 ### Analysis of Outcomes Based on Goals
 When looking at outcomes based on campaign goals, I created a table that grouped campaign goals in buckets of $5000 and compared them to campaign outcomes of Successful, Failed, and Canceled. Once again, I did not include Live projects because the focus is on completed outcomes only. 
----Then I used the COUNTIFS function to find the number of successful, failed, and canceled campaigns for plays based on each $5000 bucket. I then found and added the percentage of each outcome from the total campaigns to the table as well. See the data in tabular form below: ---![OGTable] (OGTable.png)
+---Then I used the COUNTIFS function to find the number of successful, failed, and canceled campaigns for plays based on each $5000 bucket. I then found and added the percentage of each outcome from the total campaigns to the table as well. See the data in tabular form below: <br/>![OGTable](OGTable.png)<br/>
 
-From there, I used a line chart to visualize the percentage of each outcome based on the campaign goals to find and understand trends. See the line chart below: ---![Outcomes_vs_Goals] (Outcomes_vs_Goals.png) 
+From there, I used a line chart to visualize the percentage of each outcome based on the campaign goals to find and understand trends. See the line chart below: <br/> !Outcomes_vs_Goals](Outcomes_vs_Goals.png)<br/> 
 
 ### Challenges and Difficulties Encountered
 It took some time for me to figure out how to group data properly in the Pivot table to ensure that data is shown in terms of months and not years. This way, Louise could actually make a decision on what time of the year would be ideal to launch a Kickstarter campaign. I also struggled with the COUNTIFS function because there were 3-4 arguments to keep up with and they often changed based on the buckets of campaign goals.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+What are two conclusions you can draw about the Outcomes based on Launch Date?
 When looking at the launch dates of theater campaigns in the past 8 years overall, there's a strong trend upwards in successful campaigns between the months of March and May. The number of successful campaigns rose from 56 launched in March to 111 in May. Then, starting in June, the number of successful campaigns trend downwards until the end of the year. After May's record high of 111 successful theater campaigns, campaign launches dropped by an estimated average of 14 successful campaigns per month until the end of the year. There were only 37 successful theater Kickstarter campaigns launched in December. There is a small trend upwards between the early months of January and Febuary but most noticable largest trend starts in the Spring. ---
 
 Secondly, It's important to note that the total number of projects increased between the months of April and August so the number of failed projects also increased during the Spring/Summer months and dropped by the end of the year.  The number of canceled projects is quite low, sitting at 37 out of 1,369 projects, making it hard to find a trend. While launching a campaign between May and June seems most succesful, there is also more competition because the total number of campaigns also increased. 
