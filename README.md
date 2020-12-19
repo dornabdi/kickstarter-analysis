@@ -1,6 +1,4 @@
-# kickstarter-analysis
-Module 1 submission: Kickstarter data and analysis. 
-# Kickstarting with Excel
+ # Kickstarting with Excel
 
 ## Overview of Project
 
